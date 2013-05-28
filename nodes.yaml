@@ -1,0 +1,7 @@
+worker:
+  ram: 1024
+manager: 
+  ram: 1024
+
+registry:
+  ram: 1024

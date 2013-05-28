@@ -1,0 +1,19 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/apt (1.1.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/stdlib (4.1.0)
+
+GIT
+  remote: git://github.com/garethr/garethr-docker.git
+  ref: master
+  sha: 33b683deabbb2d44db05623cd6eaed78be4d8ffe
+  specs:
+    docker (0.4.1)
+      puppetlabs/apt (>= 1.1.0)
+      puppetlabs/stdlib (>= 4.1.0)
+
+DEPENDENCIES
+  docker (>= 0)
+

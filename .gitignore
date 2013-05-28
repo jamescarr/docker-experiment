@@ -1,1 +1,4 @@
 /provision/modules
+.librarian
+.tmp
+.vagrant
