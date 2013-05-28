@@ -10,7 +10,7 @@ to manage third party puppet modules used for provisioning so you should
 install that first. Also make sure you have
 [vagrant](http:///www.vagrantup.com) installed as well. 
 
-- run `librariab-puppet install --path=provision/modules`
+- run `librarian-puppet install --path=provision/modules`
 - run `vagrant up worker01` to launch a worker
 
 Boom! Profit!
